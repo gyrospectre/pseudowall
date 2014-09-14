@@ -74,7 +74,8 @@ class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
                 # Respond with a random pub key and dummy ID values.
                 if beacon == -1:
                     phase = "Fetch Pub Key"
-                    response="""{220|random.site.int|6EiL|US|-----BEGIN PUBLIC K                                                                                                                                                             EY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1qg3oecbKebESucJGzA2
+                    response="""{220|random.site.int|6EiL|US|-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1qg3oecbKebESucJGzA2
 nEnTlf5w88UrYM8Rgl24L+ozsERvknnvFpdLbBVQDVUDkju3gSZeRcm22acFssIl
 j5rapzp96dnjFxtoxazgNcOfoNFhVvlcPouo0GICEJZJlwb7REMxzKr4ghXRLqnS
 nv+XWsNsmkQPQVokrWsoCsXt0mPSy2Sx5ojztlCZsoRTijhLnQHBizingYhTrjj6
